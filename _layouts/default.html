@@ -1,20 +1,16 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-
-  {% include head.html %}
-
+  <head>
+    <meta charset="utf-8">
+    {% include head.html %}
+  </head>
   <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
+    <div class="pagecontainer">
+      {% include header.html %}
+      <div class="mainsheet">
         {{ content }}
       </div>
-    </div>
-
-    {% include footer.html %}
-
+      {% include footer.html %}
+    </div> <!--end of page container-->
   </body>
-
 </html>

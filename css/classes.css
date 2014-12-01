@@ -1,0 +1,39 @@
+/* this file contains all classes */
+
+.pagecontainer{
+  width:100%;
+  height: 100%;
+  position: absolute;
+}
+
+.bannercontainer{
+  height: auto;
+  overflow: hidden;
+}
+
+.bannerimage{
+  width: 180px;
+  height: 65px;
+  background-color: #2580b6;
+  float: left;
+  margin:5px 0px 0px 10px;
+  border-radius: 55%;
+}
+
+.searchbar{
+  width: 250px;
+  height: 45px;
+  float: right;
+  margin: 15px 20px 5px 0px;
+  padding:5px;
+}
+
+.mainsheet{
+  width: 100%;
+  min-width: 900px;
+  background-image: url(http://c.s-microsoft.com/zh-cn/CMSImages/SpringPromo_LastFrameBG_1600x540_EN_US.jpg?version=d0e2d614-a8ae-426e-0aa8-350678df345d);
+  background-size: cover;
+  height: calc( 100% - 170px);
+  min-height: 480px;
+
+}

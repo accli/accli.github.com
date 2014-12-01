@@ -1,0 +1,50 @@
+/*Default css, basic style*/
+@import url("classes.css");
+
+*{
+  font-family: "微软雅黑","新宋体","Microsoft Sans Serif","Arial";
+  font-size: 14px;
+  padding:0px;
+  margin:0px;
+  color: #1a1a1a;
+}
+
+header{
+  width: 100%;
+  min-width: 900px;
+  height: auto;
+  overflow: hidden;
+
+}
+
+nav{
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  min-width: 900px;
+}
+
+nav li{
+  float:left;
+  list-style: none;
+  cursor: pointer;
+  min-width: 150px;
+  background-color: #1570A6;
+  color: #EEE;
+  margin: 3px 0px 1px 5px;
+  text-align: center;
+  border-radius: 
+}
+nav li:hover{
+  background-color: #EEE;
+  color: #1570A6;
+}
+footer{
+  height: 65px;
+  width: 100%;
+  min-width: 900px;
+  text-align: center;
+  background-color: #1570A6;
+  color: #FFF;
+}
+
